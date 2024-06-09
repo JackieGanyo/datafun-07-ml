@@ -108,33 +108,41 @@ Read these notes before you start:
 Add to your notebook as you work through the process. Add a second-level Markdown for Part 2. Use third-level Markdown headings for each section listed below. Copy and paste the section heading if you like, and add a ### space before each.
 
 #### Section 1 - Data Acquisition
+
 1. Follow the instructions to load NY City January high temperature from a csv file into a DataFrame.
 2. Recommended: Rather than nyc, name the dataframe nyc_df to reinforce the DataFrame operations.
 3. Recommended: Add all imports to the top of your file, just under the Markdown Introduction. Follow conventions.
 
 #### Section 2 - Data Inspection
+
 1. Follow the instructions to view head and tail of the file.
 
 #### Section 3 - Data Cleaning
-1. Follow the instructions to clean the data. Improve the column names and clean up the date series. 
+
+1. Follow the instructions to clean the data. Improve the column names and clean up the date series.
 
 #### Section 4 - Descriptive Statistics
+
 1. Set the display precision to 2 decimal places. Use 'display.precision' instead of 'precision' as shown in the text.
-2. Use describe() to calculate basic descriptive statistics for the dataset. 
+2. Use describe() to calculate basic descriptive statistics for the dataset.
 
 #### Section 5 - Build the Model
+
 1. Use the SciPy stats module linregress function to calculate slope and intercept for the best fit line through the data.
-2. Recommended: Add all imports to the top of your file, just under the Markdown Introduction. Follow conventions. 
+2. Recommended: Add all imports to the top of your file, just under the Markdown Introduction. Follow conventions.
 
 #### Section 6 - Predict
+
 1. Use your model to predict the "average high temp in Jan" for the year 2024 (just like they did for 2019).
 
 #### Section 7 - Visualizations
+
 1. Follow the instructions and use Seaborn to generate a scatter plot with a best fit line.
 2. Set the axes and the y scale as directed
-3. Customize your chart and notebook as you like to make your work clear and compelling. 
+3. Customize your chart and notebook as you like to make your work clear and compelling.
+
 Always
 
 1. Run the whole notebook to verify. Fix any issues or warnings.
-2. Git add / commit / push your changes to GitHub. 
-3. Optional - if you have any issues, ask your favorite AI or your team members in the associated discussion. Use screenshots and paste error messages so we can help. 
+2. Git add / commit / push your changes to GitHub.
+3. Optional - if you have any issues, ask your favorite AI or your team members in the associated discussion. Use screenshots and paste error messages so we can help.
