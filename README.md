@@ -146,3 +146,69 @@ Always
 1. Run the whole notebook to verify. Fix any issues or warnings.
 2. Git add / commit / push your changes to GitHub.
 3. Optional - if you have any issues, ask your favorite AI or your team members in the associated discussion. Use screenshots and paste error messages so we can help.
+
+### CC 7.7: Predict Avg High Temp in NYC in January (Part 3)
+
+Always
+
+1. Open your project repository folder in VS Code.
+2. Open a terminal in your root project folder and run git pull to make sure you have the latest changes from GitHub.
+
+Use Linear Regression on Average High Temperatures in NYC in January using a different approach.
+
+Read these notes before you start:
+
+1. Continue the project by following the steps in 15.4 (staring page 620 in your textbook).
+2. This time, we'll use scikit-learn estimator, and we'll practice splitting data for training (to build a model) and testing (testing our model against known values).
+3. Follow the instructions all the way though charting it again with the specified axes.
+
+Add to your notebook as you work through the process. Add a second-level Markdown heading for Part 3. Use third-level Markdown headings for each section listed below. Copy and paste the section heading if you like, and add a ### space before each.
+
+*Continuation from CC7.6*  
+
+#### Section 1 - Build the Model
+
+1. Use test_train_split to split the data into parts for training and testing.
+2. Recommended: Add all imports to the top of your file, just under the Markdown Introduction. Follow conventions.
+3. Check the shape of each data set.
+4. Train the model using Linear Regression Fit.
+5. View the returned coef_and intercept_  attributes need for the line equation (y = mx + b)
+
+#### Section 2 - Test the Model
+
+Test the model as directed.
+
+#### Section 3 - Predict
+
+Use your model to predict the "average high temp in Jan" for the year 2024 (like they did for 2019).
+
+#### Section 4 - Visualizations
+
+1. Follow the instructions and use Seaborn to generate a scatter plot with a best fit line.
+2. Set the axes and the y scale as directed
+3. Customize your chart and notebook as you like to make your work clear and compelling.
+
+Always
+
+1. Run the whole notebook to verify. Fix any issues or warnings.
+2. Git add / commit / push your changes to GitHub.
+3. Optional - if you have any issues, ask your favorite AI or your team members in the associated discussion. Use screenshots and paste error messages so we can help.
+
+### CC 7.8: Add Your Insights (Part 4)
+
+Always
+
+1. Open your project repository folder in VS Code.
+2. Open a terminal in your root project folder and run git pull to make sure you have the latest changes from GitHub.
+
+At the end of your notebook, add a second-level Markdown Heading for Part 4 with some remarks comparing the two methods.
+
+- Excellent analytical skills need professional communication skills to be of maximum benefit.
+
+- Your narrative and the way you present your work is key.
+
+Always
+
+1. Run the whole notebook to verify. Fix any issues or warnings.
+2. Git add / commit / push your changes to GitHub.
+3. Optional - if you have any issues, ask your favorite AI or your team members in the associated discussion. Use screenshots and paste error messages so we can help.
